@@ -1,7 +1,4 @@
-# architecture_diagrams
-Architecture Diagrams
-
-### A Production system I've deployed on AWS
+## A Production system I've deployed on AWS
 ```
                    +----------------------+
                    |      API Gateway     |
@@ -27,7 +24,7 @@ Architecture Diagrams
                                       +--------------------------------+
 ```
 
-### Structure of IaC for multiple environments
+## Structure of IaC for multiple environments
 ```
                  GITHUB REPOSITORY
         -------------------------------------
@@ -60,6 +57,7 @@ Architecture Diagrams
         | DEVELOP ENV | |   QA ENV    | | PROD ENV    |
         |  (runtime)  | |  (runtime)  | | (runtime)    |
         +-------------+ +-------------+ +-------------+
+```
 
 ## Production Incident I've Handled
 ```
